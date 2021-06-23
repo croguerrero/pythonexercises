@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\NODEPROJECT"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Python39\\python.exe"
+	}
+}
