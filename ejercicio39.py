@@ -1,4 +1,4 @@
-word = ["ola","carola", "pina"]
+word = ["ola","carola", "pina", "ventana", "Perro"]
 f_leters = []
 
 for w in word:

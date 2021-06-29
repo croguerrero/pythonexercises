@@ -33,7 +33,7 @@ def euclidiand(x,y):
     q = x // y
     r = x % y
     return q, r
-print(euclidiand(x = 41,y = 7))
+#print(euclidiand(x = 41,y = 7))
 
 ## Parametros de la funcion python espera las variables que espera
 
@@ -53,7 +53,7 @@ def pro_num(*numbers):
     prod = sum/len(numbers)
     return prod
 
-print(pro_num(5,6,8,6,8,6,8,7,6,5,6))
+#print(pro_num(5,6,8,6,8,6,8,7,6,5,6))
 
 ## Parametros Hibridos de argumentos 
 ## Para agregar dos valores o mas
@@ -62,12 +62,24 @@ def complete_name(name, **surname):
     for i in surname.items():
         print("{}".format(i[1]), end = " ")
 
-complete_name(name ="Marcelo", surname= "Guerrero", surname1 = "Marroquin")
+#complete_name(name ="Marcelo", surname= "Guerrero", surname1 = "Marroquin")
 
 ## Parametros por defecto, podemos configurar como se comportara la funcion o los parametros de entrada
 
 def diff(x, y= 1):
     return print("\n",x - y)
-diff(45)
+#diff(45)
+
+### Funciones recursivas es una funcion que se llama asi misma, hay q tener en cuenta no caer en bucle infinito
+
+def powers(x,n):
+    if x**n >100000:
+        return x ** n
+    print(x ** n)
+    powers(x, n + 1)
+
+powers(2,1)
+
+
 
 

@@ -1,4 +1,4 @@
-### Triangulo de pascal 
+### Triangulo de pascal  y numero combinatorio
 def chosse(n,k):
     """
     Calcula el numero combinario n sobre k

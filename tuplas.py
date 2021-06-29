@@ -103,4 +103,4 @@ print(tuple(items))
 for obj, pr in zip(objects, price):
     print("El objeto {}, cuesta {} $$".format(obj,pr))
 
-assert True, "El asset fallo"
+##assert True, "El asset fallo" ### Permite realizar comprobacion o testing 

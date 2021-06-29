@@ -10,5 +10,5 @@ for l in word1.lower():
 for l in word2.lower():
     letter2.add(l)
 
-common = letter1 & letter2
+common = letter1 & letter2 ## Calculo de la Interseccion de dos conjuntos
 print(common)
